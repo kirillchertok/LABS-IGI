@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IGI-LAB3", "IGI-LAB3\IGI-LAB3.pyproj", "{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D01FABAA-F7A5-45EF-9172-136FA9FFF12F}
+	EndGlobalSection
+EndGlobal
