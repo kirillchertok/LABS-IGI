@@ -6,12 +6,15 @@
 import math
 from Task1.functions_task1 import ln_approximation
 
-# Функция для проверки ввода на число
+# Функция для проверки ввода на число |x|<1
 def input_float(prompt):
     while True:
         try:
             value = float(input(prompt))
-            return value
+            if(abs(value) > 1):
+                print("Введите число |x|<1")
+            else:    
+                return value
         except ValueError:
             print("Пожалуйста, введите число.")
 
