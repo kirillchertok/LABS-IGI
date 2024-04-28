@@ -3,7 +3,14 @@
 # Функция отвечающая за начало программы и ввод/вывод данных
 # Дата разработки : 29.03.2024
 
+import random
+import string
 from Task3.functions_task3 import is_hexadecimal
+
+# Функция генерации строки
+def generate_random_string(length):
+    characters = string.ascii_letters + string.digits
+    return ''.join(random.choice(characters) for _ in range(length))
 
 # Основная функции
 def main_task3():

@@ -3,6 +3,7 @@
 # Функции отвечающая за начало программы и ввод/вывод данных, а также проверку
 # Дата разработки : 29.03.2024
 
+import random
 from Task5.functions_task5 import calculate_odd_negative_count,calculate_sum_before_last_zero
 
 # Функция проверки на ввод
@@ -14,6 +15,10 @@ def input_float_list():
             return float_list
         except ValueError:
             print("Пожалуйста вводите только вещественные числа")
+            
+# Функция генератор массива
+def generate(length, min_value, max_value):
+    return [random.randint(min_value, max_value) for _ in range(length)]            
 
 # Основная функция программы            
 def main_task5():

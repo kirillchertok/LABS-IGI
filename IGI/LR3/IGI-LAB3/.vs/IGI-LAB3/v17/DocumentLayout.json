@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\IGI_LAB3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\IGI_LAB3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task1\\in_out_task1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task1\\in_out_task1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\IGI_LAB3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\IGI_LAB3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task1\\functions_task1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task1\\functions_task1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task3\\functions_task3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task3\\functions_task3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task5\\in_out_task5.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task5\\in_out_task5.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task4\\in_out_task4.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task4\\in_out_task4.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task3\\in_out_task3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task3\\in_out_task3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task2\\in_out_task2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task2\\in_out_task2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task2\\functions_task2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task2\\functions_task2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task4\\functions_task4.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task4\\functions_task4.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task5\\functions_task5.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CCBAFEBE-1A9F-4446-B50A-3E69BABEF096}|IGI-LAB3\\IGI-LAB3.pyproj|solutionrelative:IGI-LAB3\\Task5\\functions_task5.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,29 +62,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "in_out_task5.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task5\\in_out_task5.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task5\\in_out_task5.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task5\\in_out_task5.py",
+              "RelativeToolTip": "IGI-LAB3\\Task5\\in_out_task5.py",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:57:31.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "in_out_task4.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task4\\in_out_task4.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task4\\in_out_task4.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task4\\in_out_task4.py",
+              "RelativeToolTip": "IGI-LAB3\\Task4\\in_out_task4.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:56:56.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "functions_task3.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task3\\functions_task3.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task3\\functions_task3.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task3\\functions_task3.py",
+              "RelativeToolTip": "IGI-LAB3\\Task3\\functions_task3.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:56:32.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "in_out_task3.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task3\\in_out_task3.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task3\\in_out_task3.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task3\\in_out_task3.py",
+              "RelativeToolTip": "IGI-LAB3\\Task3\\in_out_task3.py",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:56:09.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "in_out_task2.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task2\\in_out_task2.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task2\\in_out_task2.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task2\\in_out_task2.py",
+              "RelativeToolTip": "IGI-LAB3\\Task2\\in_out_task2.py",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:55:30.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "in_out_task1.py",
               "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task1\\in_out_task1.py",
               "RelativeDocumentMoniker": "IGI-LAB3\\Task1\\in_out_task1.py",
               "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task1\\in_out_task1.py",
               "RelativeToolTip": "IGI-LAB3\\Task1\\in_out_task1.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-30T13:28:12.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "IGI_LAB3.py",
               "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\IGI_LAB3.py",
               "RelativeDocumentMoniker": "IGI-LAB3\\IGI_LAB3.py",
               "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\IGI_LAB3.py",
               "RelativeToolTip": "IGI-LAB3\\IGI_LAB3.py",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-03-29T15:37:54.748Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "functions_task1.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task1\\functions_task1.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task1\\functions_task1.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task1\\functions_task1.py",
+              "RelativeToolTip": "IGI-LAB3\\Task1\\functions_task1.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:54:37.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "functions_task2.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task2\\functions_task2.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task2\\functions_task2.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task2\\functions_task2.py",
+              "RelativeToolTip": "IGI-LAB3\\Task2\\functions_task2.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:55:42.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "functions_task4.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task4\\functions_task4.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task4\\functions_task4.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task4\\functions_task4.py",
+              "RelativeToolTip": "IGI-LAB3\\Task4\\functions_task4.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T07:57:15.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "functions_task5.py",
+              "DocumentMoniker": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task5\\functions_task5.py",
+              "RelativeDocumentMoniker": "IGI-LAB3\\Task5\\functions_task5.py",
+              "ToolTip": "C:\\253502_Chertok_23\\IGI\\LR3\\IGI-LAB3\\IGI-LAB3\\Task5\\functions_task5.py",
+              "RelativeToolTip": "IGI-LAB3\\Task5\\functions_task5.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-01T08:01:15.045Z"
             }
           ]
         }

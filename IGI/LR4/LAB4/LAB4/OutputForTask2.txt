@@ -1,0 +1,10 @@
+sentence_count: 6
+narrative_count: 3
+interrogative_count: 2
+imperative_count: 1
+average_sentence_length: 80.66666666666667
+average_word_length: 5.17948717948718
+smiley_count: 0
+three_letter_words: ['The', 'fox', 'the', 'dog', 'sit', 'Sed', 'non', 'qui', 'est']
+equal_vowels_consonants: ['over', 'amet', 'elit', 'do', 'ut', 'labore', 'et', 'dolore', 'Ut', 'enim', 'ad', 'veniam', 'quis', 'exercitation', 'nisi', 'ut', 'ex', 'Duis', 'in', 'in', 'esse', 'dolore', 'fugiat', 'pariatur', 'occaecat', 'in', 'anim', 'id']
+words_sorted_by_length: ['reprehenderit', 'exercitation', 'consectetur', 'adipiscing', 'incididunt', 'consequat', 'voluptate', 'Excepteur', 'cupidatat', 'pariatur', 'occaecat', 'proident', 'deserunt', 'eiusmod', 'nostrud', 'ullamco', 'laboris', 'aliquip', 'commodo', 'officia', 'laborum', 'tempor', 'labore', 'dolore', 'aliqua', 'veniam', 'cillum', 'dolore', 'fugiat', 'mollit', 'quick', 'brown', 'jumps', 'Lorem', 'ipsum', 'dolor', 'magna', 'minim', 'irure', 'dolor', 'velit', 'nulla', 'culpa', 'over', 'lazy', 'amet', 'elit', 'enim', 'quis', 'nisi', 'Duis', 'aute', 'esse', 'sint', 'sunt', 'anim', 'The', 'fox', 'the', 'dog', 'sit', 'Sed', 'non', 'qui', 'est', 'do', 'ut', 'et', 'Ut', 'ad', 'ut', 'ex', 'ea', 'in', 'in', 'eu', 'in', 'id']
