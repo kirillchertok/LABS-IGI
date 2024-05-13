@@ -1,0 +1,65 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Промокоды
+{% endblock %}
+
+{% block content %}
+    <div class="mainDiscountsField">
+        <div class="accountHeader">
+            <p>Коды для получения скидки</p>
+            {% if role == 'admin' %}
+            <form method="post" style="width: 10%; height: 100%;">
+                {% csrf_token %}
+                <button 
+                    type="submit"
+                    name="action"
+                    value="create"
+                    class="login-button"
+                    id="addCodeField">
+                Добавить скидку
+            </button>
+            </form>
+            {% endif %}
+        </div>
+        {% if form is None %}
+            <div class="discounts">
+                {% for code in codes %}
+                    {% if code.code != '0000' %}
+                    <div class="discount">
+                        <span class="discountCode"><strong>{{ code.code }}</strong></span>
+                        <span>{{ code.amount }}%</span>
+                        {% if code.is_active %}
+                            <span class="discountActive">Активен</span>
+                        {% else %}
+                            <span class="discountNotActive">Неактивен</span>
+                        {% endif %}
+                        {% if role == 'admin' %}
+                            <a href="{{ code.get_absolute_url }}">Сменить статус</a>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% else %}
+        <div class="addField">
+            <form method="post">
+                {% csrf_token %}
+                    <div class="change-form">
+                        {% for field in form %}
+                            {{ field }}
+                        {% endfor %}
+                        <button
+                            class="login-button"
+                            id="addNewCode"
+                            type="submit"
+                            >Подтвердить</button>
+                        {% for error in form.error %}
+                            <p class="errors">{{ error }}</p>    
+                        {% endfor %}
+                    </div>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+{% endblock %}

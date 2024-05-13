@@ -1,0 +1,57 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Продукт
+{% endblock %}
+
+{% block content %}
+    <div class="mainProductsField">
+        <div class="accountHeader">
+            <p>Продукт</p>
+            {% if role == 'admin' %}
+                <form method="post" style="width: 5%; height: 100%;">
+                    {% csrf_token %}
+                    <button 
+                        type="submit"
+                        name="action"
+                        value="update"
+                        class="login-button"
+                        id="changeProductField">
+                        <i class="fa-solid fa-pen"></i>
+                    </button>
+                </form>
+            {% endif %}
+        </div>
+        {% if form is None %}
+        <div class="product" id="soloProduct">
+            <span>Изделие: <strong>{{ product.name }}</strong></span>
+            <span>Тип: <strong>{{ product.type.type }}</strong></span>
+            <span>Описание: <strong>{{ product.description }}</strong></span>
+            <span>Цена: <strong>{{ product.price }} BYN</strong></span>
+            {% if product.amount == 0 %}
+            <span><strong>Нет на складе</strong></span>
+            {% endif %}
+        </div>
+        <a href="{% url 'products' %}" class="getBackToAllProducts">Вернутся ко всем товарам</a>
+        {% else %}
+            <div class="addField">
+                <form method="post">
+                    {% csrf_token %}
+                        <div class="change-form">
+                            {% for field in form %}
+                                {{ field }}
+                            {% endfor %}
+                            <button
+                                class="login-button"
+                                id="updateProduct"
+                                type="submit"
+                                >Подтвердить</button>
+                            {% for error in form.errors %}
+                                <p class="errors">{{ error }}</p>    
+                            {% endfor %}     
+                        </div>
+                </form>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

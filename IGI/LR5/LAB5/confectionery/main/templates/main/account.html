@@ -1,0 +1,125 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Аккаунт
+{% endblock %}
+
+{% block content %}
+    <div class="accountHeader">
+        <div class="accountAccountHeader">
+            <p>Аккаунт</p>
+            <span>Ваш IP:{{ ip }}</span>
+        </div>
+        <a href="{% url 'log-out' %}">
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </a>
+    </div>
+    {% if form is None %}
+    <div class="accountMainField">
+        <div class="casualInf">
+            <div class="accountUserInf">
+                <div class="accountInfText">
+                    <p>Имя: <strong>{{ user.name }}</strong></p>
+                    <p>Телефон: <strong>{{ user.phone }}</strong></p>
+                    <p>Почта: <strong>{{ user.email }}</strong></p>
+                    {% if role == 'admin' %}
+                        <a href="{% url 'admin-page' %}">Страница владельца</a>
+                    {% endif %}
+                </div>
+                <div class="changeAccountInf">
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <button
+                            type="submit"
+                            name="action"
+                            value="editUserInf"
+                            class="login-button"
+                            id="changeUserInfBtn">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="datetimeUserInf">
+                <div class="datetimeInf">
+                    <p>Таймзона: <strong>{{ user.time_inf.timezone }}</strong></p>
+                    <p>UTC: <strong>{{ user.time_inf.date_utc }}</strong></p>
+                    <p>Локальная дата: <strong>{{ user.time_inf.date_local }}</strong></p>
+                </div>
+                <div class="datetimeCalendar">
+                    <p>Календарь: </p>
+                    <pre><strong>{{ user.time_inf.calendar }}</strong></pre>
+                </div>
+            </div>
+        </div>
+            <div class="userOrders">
+                {% if role == 'user' %}
+                    <p>Ваши заказы:</p>
+                {% else %}
+                    <p>Заказы пользователей:</p>
+                {% endif %}
+                {% if user.orders %}
+                    {% for order in user.orders %}
+                        <div class="orderUser">
+                            <span>Заказ номер: {{ order.orderId }}</span>
+                            <span>Наполнение:</span>
+                            <div class="productsInf">
+                                {% for product in order.allProducts %}
+                                <div class="productInf">
+                                    <span>{{ product.name }}</span>
+                                    <span>{{ product.price }} BYN</span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <span>Дата доставки: {{ order.orderInfo.delivery_date }} 
+                                <span class="isDelivered">{% if order.orderInfo.status %} (Доставлен) {% endif %}</span>
+                            </span>
+                            <span>Адресс доставки: {{ order.orderInfo.delivery_adress }}</span>
+                            <span>Сумма заказа(с учетом скидки): {{ order.orderInfo.amount_of_money}} BYN</span>
+                            {% if role != 'user' %}
+                                <span>Заказчик: {{ order.customer.name }}</span>
+                                <span>Почта заказчика: {{ order.customer.email }}</span>
+                                <span>Скидка: {% if order.orderInfo.discount.code != '0000' %} {{ order.orderInfo.discount.code }} {% endif %}</span>
+                            {% endif %}
+                            {% if role == 'user' %}
+                                <a href="{{ order.orderInfo.method }}">Отменить</a>
+                            {% endif %}
+                        </div>
+                    {% endfor%}
+                {% else%}
+                    <p>У вас пока нет заказов</p>
+                {% endif%}
+            </div>
+    </div>
+    {% else %}
+    <div class="closeChangeField">
+        <form action="" method="post">
+            {% csrf_token %}
+            <button
+                type="submit"
+                name="action"
+                value="closeChangeField"
+                class="login-button"
+                id="exitChangeUserInfBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </form>
+    </div>
+    <form action="" method="post">
+        {% csrf_token %}
+            <div class="change-form">
+                {% for field in form %}
+                    {{ field }}
+                {% endfor %}
+                <button
+                    class="login-button"
+                    id="confirm-update-btn"
+                    type="submit"
+                    >Подтвердить изменения</button>
+                {% for error in form.error %}
+                    <p class="errors">{{ error }}</p>    
+                {% endfor %}     
+            </div>
+    </form>
+    {% endif %}
+{% endblock %}

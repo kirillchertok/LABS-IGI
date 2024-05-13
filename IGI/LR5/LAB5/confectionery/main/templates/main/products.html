@@ -1,0 +1,60 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Продукция
+{% endblock %}
+
+{% block content %}
+    <div class="mainProductsField">
+        <div class="accountHeader">
+            <p>Продукция</p>
+            {% if role == 'admin' %}
+                <form method="post" style="width: 10%; height: 100%;">
+                    {% csrf_token %}
+                    <button 
+                    type="submit"
+                    name="action"
+                    value="create"
+                    class="login-button"
+                    id="addProductField">
+                    Добавить Продукт
+                </button>
+                </form>
+            {% endif %}
+        </div>
+        {% if form is None %}
+            <div class="products">
+                {% for product in products %}
+                    <div class="product">
+                        <a href="{{ product.get_absolute_url }}"><span>Изделие: <strong>{{ product.name }}</strong></span></a>
+                        <span>Тип: <strong>{{ product.type.type }}</strong></span>
+                        <span>Описание: <strong>{{ product.description }}</strong></span>
+                        <span>Цена: <strong>{{ product.price }} BYN {% if product.type.type == 'Торт' %} <span>(1шт.)</span> {% else %} <span>(1кг.)</span> {% endif %}</strong></span>
+                        {% if product.amount == 0 %}
+                        <span><strong>Нет на складе</strong></span>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="addField">
+                <form method="post">
+                    {% csrf_token %}
+                        <div class="change-form">
+                            {% for field in form %}
+                                {{ field }}
+                            {% endfor %}
+                            <button
+                                class="login-button"
+                                id="addNewProduct"
+                                type="submit"
+                                >Подтвердить</button>
+                            {% for error in form.error %}
+                                <p class="errors">{{ error }}</p>    
+                            {% endfor %}     
+                        </div>
+                </form>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

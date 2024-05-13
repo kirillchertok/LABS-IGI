@@ -1,0 +1,25 @@
+.change-form-order{
+    width: 99%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.change-form-order .login-input{
+    width: 40% !important;
+    height: 7% !important;
+    margin: 0 0 1% 0!important;
+    padding: 0 0 0 1% !important;
+}
+
+.change-form-order .login-button{
+    width: 10% !important;
+    height: 7% !important;
+}
+#seleteProductOrder{
+    width: 100%;
+    height: 30%;
+    overflow-y: scroll;
+}

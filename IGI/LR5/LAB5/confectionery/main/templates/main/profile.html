@@ -1,0 +1,11 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Профиль
+{% endblock %}
+
+{% block content %}
+        <p class="homePage-header">Профиль</p>
+        <h2>{{ user.username }}</h2>
+        <button>Выйти</button>
+{% endblock %}

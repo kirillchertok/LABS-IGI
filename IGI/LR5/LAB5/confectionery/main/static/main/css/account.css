@@ -1,0 +1,156 @@
+.accountMainField{
+    width: 99%;
+    height: 85%;
+    overflow-y: scroll;
+    font-size: 1.1rem;
+}
+.accountMainField::-webkit-scrollbar{
+    width: 0;
+}
+.accountHeader{
+    width: 99%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin-bottom: 1%;
+}
+.accountHeader p{
+    font-size: 2rem;
+}
+.accountHeader i{
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+    transition: text-shadow 0.5s linear;
+}
+.accountHeader i:hover{
+    text-shadow: 0 0 5px black;
+}
+.casualInf{
+    width: 99%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 33% 60%;
+    grid-template-rows: 100%;
+    gap: 7%;
+}
+.accountUserInf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.accountUserInf a{
+    color:black;
+}
+.datetimeUserInf{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.accountAccountHeader{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.changeAccountInf{
+    margin-top: 5%;
+    width: 15%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+#changeUserInfBtn{
+    border-radius: 50%;
+    width: 2.5vw;
+    height: 5vh;
+    font-size: 1.2rem;
+}
+.change-form{
+    display: flex;
+    flex-direction: column;
+    gap:1%;
+}
+#confirm-update-btn{
+    width: 20%;
+    height: 6vh;
+}
+.closeChangeField{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    height: 10%;
+}
+#exitChangeUserInfBtn{
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.orderUser{
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    padding: 1%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.productsInf{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 3%;
+}
+.datetimeCalendar{
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 1%;
+    width: 15vw;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datetimeCalendar p{
+    margin: 0;
+}
+.mainAdminPageField{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 98%;
+    height: 80%;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+}
+.sectionsHeaders{
+    font-size: 1.5rem;
+    margin: 0 0 0 3%;
+}
+.priceList .products{
+    overflow: hidden !important;
+}
+.mainAdminPageField img{
+    margin-left: 1%;
+    border-radius: 15px;
+}
+.isDelivered{
+    color: red;
+}

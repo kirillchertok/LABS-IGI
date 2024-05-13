@@ -1,0 +1,27 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Создать заказ
+{% endblock %}
+
+{% block content %}
+<div class="accountHeader">
+    <p>Сделать заказ</p>
+</div>
+<form action="" method="post">
+    {% csrf_token %}
+        <div class="change-form-order">
+            {% for field in form %}
+                {{ field }}
+            {% endfor %}
+            <button
+                class="login-button"
+                id="create-order-btn"
+                type="submit"
+                >Сделать заказ</button>
+            {% for error in form.error %}
+                <p class="errors">{{ error }}</p>    
+            {% endfor %}     
+        </div>
+</form>
+{% endblock %}

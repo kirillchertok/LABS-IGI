@@ -1,0 +1,24 @@
+{% extends 'main/default-layout.html' %}
+
+{% block title %}
+    Логин
+{% endblock %}
+
+{% block content %}
+        <p class="homePage-header">Вход в аккаунт</p>
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-login">
+                {% for field in form %}
+                    {{ field }}
+                {% endfor %}
+                <button
+                    class="login-button"
+                    id="confirm-login-btn"
+                    type="submit"
+                    >Подтвердить</button>
+                <p>Еще нет аккаунта? <a href="{% url 'sign-up' %}">Зарегистрироваться</a></p>        
+                <p class="errors">{{ form.errors }}</p>    
+            </div>
+        </form>
+{% endblock %}

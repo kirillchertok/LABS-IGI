@@ -1,0 +1,49 @@
+{% extends 'main/default-layout.html' %}
+
+{% load static %}
+
+{% block title %}
+    Страница администратора
+{% endblock %}
+
+{% block content %}
+    <div class="accountHeader">
+        <p>Страница администратора</p>
+        <a href="{% url 'account' %}">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+    </div>
+    {% if role != 'admin' %}
+        <h1>Эту страницу нельзя смотреть</h1>
+    {% else %}
+        <div class="mainAdminPageField">
+            <div class="priceList">
+                <p class="sectionsHeaders">Текущий прайс-лист(По популярности)</p>
+                <div class="products">
+                    {% for product in most_popular_products %}
+                        <div class="product">
+                            <a href="{{ product.get_absolute_url }}"><span>Изделие: <strong>{{ product.name }}</strong></span></a>
+                            <span>Тип: <strong>{{ product.type.type }}</strong></span>
+                            <span>Описание: <strong>{{ product.description }}</strong></span>
+                            <span>Цена: <strong>{{ product.price }} BYN {% if product.type.type == 'Торт' %} <span>(1шт.)</span> {% else %} <span>(1кг.)</span> {% endif %}</strong></span>
+                            {% if product.amount == 0 %}
+                            <span><strong>Нет на складе</strong></span>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="orderInf">
+                <p class="sectionsHeaders">График заказов(По городам)</p>
+                <img src="{% static 'main/img/order_sities_stat.jpg' %}" width="384px" height="288px" alt=""/>
+            </div>
+            <div class="incomesInf">
+                <p class="sectionsHeaders">Графики по выручке</p>
+                <div class="graphic">
+                    <img src="{% static 'main/img/month_amount_stat.jpg' %}" width="384px" height="288px" alt=""/>
+                    <img src="{% static 'main/img/month_incomes_stat.jpg' %}" width="384px" height="288px" alt=""/>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
