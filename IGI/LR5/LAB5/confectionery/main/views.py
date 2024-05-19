@@ -14,6 +14,7 @@ from .services.modelsServices.productTypeService import *
 from .services.modelsServices.discountService import *
 from .services.adminService import AdminService
 from .services.apiService import ApiService
+from .repositories.newsRepository import NewsRepository
 
 from .forms import SignInForm, SignUpForm, UpdateInfForm, OrderForm, NewProductForm, AddDiscountForm
 
@@ -21,8 +22,10 @@ def index(request):
     cat_fact = ApiService.get_cat_facts()['fact']
     translator= Translator(from_lang="en", to_lang="ru")
     translation = translator.translate(cat_fact)
+    news = NewsRepository.get_all()
     return render(request, 'main/index.html', {
-        'cat_fact': translation
+        'cat_fact': translation,
+        'news': news
     })
 
 class SignInView(View):

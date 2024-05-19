@@ -137,7 +137,7 @@ class Policy(BaseModel):
 class News(BaseModel):
     title = models.CharField(max_length=50, help_text='Заголовок')
     text = models.TextField(help_text='Текст статьи')
-    img = models.ImageField(help_text='Фотография', blank=True, upload_to='app/static/main/img', null=True)
+    img = models.ImageField(help_text='Фотография', blank=True, upload_to='main/static/main/img', null=True)
 
     class Meta:
         db_table = 'news_table'

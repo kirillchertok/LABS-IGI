@@ -33,6 +33,9 @@
                         {% if product.amount == 0 %}
                         <span><strong>Нет на складе</strong></span>
                         {% endif %}
+                        {% if role == 'employee' %}
+                            
+                        {% endif %}
                     </div>
                 {% endfor %}
             </div>

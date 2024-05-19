@@ -158,6 +158,8 @@ body{
     height: 98%;
     width: 97%;
     animation: main-page-animation 1s ease-out;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .homePage-header{
     font-size: 2.7rem;
